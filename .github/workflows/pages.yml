@@ -6,7 +6,7 @@ on:
     # Tuesday 09:00 UTC is 3:00 AM CT in November (CST, UTC-6).
     - cron: "0 9 * * 2"
     # 13:00 UTC is 7:00 AM CT in November.
-    # Saturday and Sunday republish DraftKings and FanDuel props.
+    # Saturday and Sunday at that hour republish DraftKings and FanDuel props.
     - cron: "0 13 * * *"
 
 permissions:
@@ -20,28 +20,33 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     timeout-minutes: 90
-    env:
-      PYTHONPATH: ${{ github.workspace }}
     steps:
       - uses: actions/checkout@v4
-      - name: Unpack bundle
-        run: base64 -d bundle.tgz.b64 | tar xzf -
+      - name: Unpack the board
+        run: base64 -d bundle.tgz.b64 | tar -xz
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
       - name: Install
         run: pip install -r requirements.txt
       - name: Load free nflverse rolls
-        continue-on-error: true
         run: python scripts/pages_job.py refresh
       - name: Publish the week, or run the light refresh
-        continue-on-error: true
         run: |
           dow=$(TZ=America/Chicago date +%u)
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || [ "$dow" = "6" ] || [ "$dow" = "7" ]; then
             python scripts/pages_job.py publish
           else
             python scripts/pages_job.py light
+          fi
+      - name: War Room
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          dow=$(TZ=America/Chicago date +%u)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || [ "$dow" = "6" ] || [ "$dow" = "7" ]; then
+            python scripts/pages_job.py warroom
           fi
       - name: Scan the public folder
         run: python scripts/scan_public_pwa.py pwa

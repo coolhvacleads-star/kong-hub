@@ -42,7 +42,9 @@ jobs:
             python scripts/pages_job.py light
           fi
       - name: War Room
+        id: wr
         continue-on-error: true
+        timeout-minutes: 20
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
@@ -50,6 +52,11 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || [ "$dow" = "6" ] || [ "$dow" = "7" ]; then
             python scripts/pages_job.py warroom
           fi
+      - name: Keep the last good War Room card if it timed out
+        if: steps.wr.outcome != 'success'
+        run: |
+          mkdir -p pwa/data
+          curl -sf https://coolhvacleads-star.github.io/kong-hub/data/warroom.json -o pwa/data/warroom.json.live && mv pwa/data/warroom.json.live pwa/data/warroom.json || echo "no live warroom.json"
       - name: Scan the public folder
         run: python scripts/scan_public_pwa.py pwa
       - name: Deploy gh-pages

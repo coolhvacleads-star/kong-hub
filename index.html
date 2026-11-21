@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070B14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Kong Hub">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" sizes="180x180" href="icon-180.png?v=kong3">
+<link rel="icon" href="icon-192.png?v=kong2">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="app.css">
+<title>Kong Hub</title>
+</head>
+<body>
+<header>
+  <div class="top">
+    <div class="brand">
+      <img class="mark" src="icon-192.png?v=kong2" alt="Kong Hub">
+      <div>
+        <strong>KONG HUB</strong>
+        <em id="week-live">LIVE SIM</em>
+      </div>
+    </div>
+    <div class="titles">
+      <h1 id="title">Board</h1>
+      <p id="stamp">Loading the published week…</p>
+    </div>
+    <button id="install" type="button"><img src="icon-180.png?v=kong2" alt=""> Add to Home Screen</button>
+    <button id="refresh" type="button"><span aria-hidden="true">↻</span> Refresh Odds &amp; Injuries</button>
+  </div>
+</header>
+<main id="app"></main>
+<nav>
+  <button type="button" data-tab="board">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>
+    <span>Board</span>
+  </button>
+  <button type="button" data-tab="streaks">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-6 4 3 8-9"/><path d="M14 5h6v6"/></svg>
+    <span>Streaks</span>
+  </button>
+  <button type="button" data-tab="games">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h6l2 3h8v9H4z"/><path d="M8 7V5h8v2"/></svg>
+    <span>Matchups</span>
+  </button>
+  <button type="button" data-tab="calc">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="2"/><path d="M8 8h8M8 12h3M13 12h3M8 16h3M13 16h3"/></svg>
+    <span>Calculator</span>
+  </button>
+  <button type="button" data-tab="warroom">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18V6h4l4 5 4-5h4v12h-4v-6l-4 5-4-5v6z"/></svg>
+    <span>War Room</span>
+  </button>
+  <button type="button" data-tab="review">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 15l3-4 3 2 4-6"/></svg>
+    <span>Review</span>
+  </button>
+  <button type="button" data-tab="slip">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h10a2 2 0 0 1 2 2v16l-3-2-3 2-3-2-3 2V5a2 2 0 0 1 2-2z"/></svg>
+    <span>Slip</span>
+    <b id="slip-count" hidden>0</b>
+  </button>
+</nav>
+<div id="install-modal" hidden>
+  <div class="sheet">
+    <button id="install-close" type="button" aria-label="Close">×</button>
+    <img class="home-icon" src="icon-180.png?v=kong2" alt="Kong Hub home screen icon">
+    <strong>Kong Hub</strong>
+    <button id="install-now" type="button" hidden>Install App Now</button>
+    <ol>
+      <li><span>1</span> Tap the <b>Share</b> button <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12"/><path d="M7 8l5-5 5 5"/><path d="M5 14v5h14v-5"/></svg> in the Safari toolbar.</li>
+      <li><span>2</span> Scroll, tap <b>Add to Home Screen</b> <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M12 8v8M8 12h8"/></svg>, then tap <b>Add</b>.</li>
+    </ol>
+  </div>
+</div>
+<script src="sim-engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

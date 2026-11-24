@@ -7,7 +7,18 @@ on:
     - cron: "0 9 * * 2"
     # 13:00 UTC is 7:00 AM CT in November.
     # Saturday and Sunday at that hour republish DraftKings and FanDuel props.
+    # Wednesday, Thursday and Friday also run the full publish + War Room so Thursday
+    # (Thanksgiving) and Friday games get props and bot parlays before kickoff.
     - cron: "0 13 * * *"
+    # Near-kickoff weather checks (light run + forecast/observed refresh within ~3 h of kick).
+    - cron: "30 16 * * 4"
+    - cron: "45 19 * * 4"
+    - cron: "30 23 * * 4"
+    - cron: "30 17 * * 5"
+    - cron: "0 16 * * 0"
+    - cron: "15 19 * * 0"
+    - cron: "30 23 * * 0"
+    - cron: "45 22 * * 1"
 
 permissions:
   contents: write
@@ -36,7 +47,7 @@ jobs:
       - name: Publish the week, or run the light refresh
         run: |
           dow=$(TZ=America/Chicago date +%u)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || [ "$dow" = "6" ] || [ "$dow" = "7" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || { [ "${{ github.event.schedule }}" = "0 13 * * *" ] && [ "$dow" -ge 3 ]; }; then
             python scripts/pages_job.py publish
           else
             python scripts/pages_job.py light
@@ -49,7 +60,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           dow=$(TZ=America/Chicago date +%u)
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || [ "$dow" = "6" ] || [ "$dow" = "7" ]; then
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] || [ "${{ github.event.schedule }}" = "0 9 * * 2" ] || { [ "${{ github.event.schedule }}" = "0 13 * * *" ] && [ "$dow" -ge 3 ]; }; then
             python scripts/pages_job.py warroom
           fi
       - name: Keep the last good War Room card if it timed out

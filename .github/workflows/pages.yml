@@ -54,6 +54,11 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python scripts/pages_job.py lockerroom
+      - name: Referee bias
+        id: refs
+        continue-on-error: true
+        timeout-minutes: 15
+        run: python scripts/pages_job.py referees
       - name: Publish the week, or run the light refresh
         run: |
           dow=$(TZ=America/Chicago date +%u)

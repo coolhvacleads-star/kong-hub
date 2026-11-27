@@ -49,9 +49,10 @@ jobs:
       - name: Locker Room Chatter
         id: lrc
         continue-on-error: true
-        timeout-minutes: 15
+        timeout-minutes: 20
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
         run: python scripts/pages_job.py lockerroom
       - name: Publish the week, or run the light refresh
         run: |

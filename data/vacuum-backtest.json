@@ -1,0 +1,632 @@
+{
+ "method": "nflverse play-by-play 2025-2026. Every team-game where a player with >=3.5 targets or >=7 designed carries a game (>=2 games for the club that season) did not appear; each teammate who played is predicted from games before it only. Fit on 2025, test on 2026.",
+ "fit_2025": {
+  "share 0.0 K 2": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.257,
+    "bias": -0.041,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.07,
+    "bias": -0.61,
+    "n": 777
+   }
+  },
+  "share 0.0 K 4": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.244,
+    "bias": -0.056,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.051,
+    "bias": -0.631,
+    "n": 777
+   }
+  },
+  "share 0.0 K 8": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.24,
+    "bias": -0.067,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.05,
+    "bias": -0.645,
+    "n": 777
+   }
+  },
+  "share 0.2 K 2": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.263,
+    "bias": 0.103,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.946,
+    "bias": -0.352,
+    "n": 777
+   }
+  },
+  "share 0.2 K 4": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.251,
+    "bias": 0.105,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.918,
+    "bias": -0.346,
+    "n": 777
+   }
+  },
+  "share 0.2 K 8": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.249,
+    "bias": 0.107,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.908,
+    "bias": -0.339,
+    "n": 777
+   }
+  },
+  "share 0.35 K 2": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.285,
+    "bias": 0.212,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.9,
+    "bias": -0.158,
+    "n": 777
+   }
+  },
+  "share 0.35 K 4": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.276,
+    "bias": 0.226,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.871,
+    "bias": -0.133,
+    "n": 777
+   }
+  },
+  "share 0.35 K 8": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.277,
+    "bias": 0.238,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.86,
+    "bias": -0.11,
+    "n": 777
+   }
+  },
+  "share 0.5 K 2": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.321,
+    "bias": 0.32,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.895,
+    "bias": 0.035,
+    "n": 777
+   }
+  },
+  "share 0.5 K 4": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.318,
+    "bias": 0.346,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.871,
+    "bias": 0.08,
+    "n": 777
+   }
+  },
+  "share 0.5 K 8": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.323,
+    "bias": 0.369,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 4.865,
+    "bias": 0.119,
+    "n": 777
+   }
+  },
+  "share 1.0 K 2": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.537,
+    "bias": 0.682,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.175,
+    "bias": 0.681,
+    "n": 777
+   }
+  },
+  "share 1.0 K 4": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.56,
+    "bias": 0.748,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.2,
+    "bias": 0.79,
+    "n": 777
+   }
+  },
+  "share 1.0 K 8": {
+   "t_flat": {
+    "rmse": 2.247,
+    "bias": -0.085,
+    "n": 2648
+   },
+   "t_prorata": {
+    "rmse": 2.663,
+    "bias": 0.906,
+    "n": 2648
+   },
+   "t_vacuum": {
+    "rmse": 2.59,
+    "bias": 0.804,
+    "n": 2648
+   },
+   "c_flat": {
+    "rmse": 5.075,
+    "bias": -0.666,
+    "n": 777
+   },
+   "c_prorata": {
+    "rmse": 5.363,
+    "bias": 1.055,
+    "n": 777
+   },
+   "c_vacuum": {
+    "rmse": 5.243,
+    "bias": 0.884,
+    "n": 777
+   }
+  }
+ },
+ "targets": {
+  "share": 0.0,
+  "k": 8,
+  "test_2026": {
+   "t_flat": {
+    "rmse": 2.293,
+    "bias": -0.117,
+    "n": 1192
+   },
+   "t_prorata": {
+    "rmse": 2.686,
+    "bias": 0.716,
+    "n": 1192
+   },
+   "t_vacuum": {
+    "rmse": 2.284,
+    "bias": -0.142,
+    "n": 1192
+   }
+  }
+ },
+ "carries": {
+  "share": 0.35,
+  "k": 8,
+  "test_2026": {
+   "c_flat": {
+    "rmse": 5.416,
+    "bias": -1.021,
+    "n": 300
+   },
+   "c_prorata": {
+    "rmse": 6.198,
+    "bias": 1.726,
+    "n": 300
+   },
+   "c_vacuum": {
+    "rmse": 5.11,
+    "bias": -0.088,
+    "n": 300
+   }
+  }
+ },
+ "form_test_2026_all_games": {
+  "0.0": {
+   "t_flat": {
+    "rmse": 2.403,
+    "bias": -0.128,
+    "n": 2051
+   },
+   "t_prorata": {
+    "rmse": 2.629,
+    "bias": 0.356,
+    "n": 2051
+   },
+   "t_vacuum": {
+    "rmse": 2.398,
+    "bias": -0.143,
+    "n": 2051
+   },
+   "c_flat": {
+    "rmse": 5.32,
+    "bias": -0.587,
+    "n": 499
+   },
+   "c_prorata": {
+    "rmse": 5.811,
+    "bias": 1.064,
+    "n": 499
+   },
+   "c_vacuum": {
+    "rmse": 5.135,
+    "bias": -0.026,
+    "n": 499
+   }
+  },
+  "0.25": {
+   "t_flat": {
+    "rmse": 2.404,
+    "bias": -0.119,
+    "n": 2051
+   },
+   "t_prorata": {
+    "rmse": 2.631,
+    "bias": 0.366,
+    "n": 2051
+   },
+   "t_vacuum": {
+    "rmse": 2.4,
+    "bias": -0.134,
+    "n": 2051
+   },
+   "c_flat": {
+    "rmse": 5.295,
+    "bias": -0.558,
+    "n": 499
+   },
+   "c_prorata": {
+    "rmse": 5.808,
+    "bias": 1.094,
+    "n": 499
+   },
+   "c_vacuum": {
+    "rmse": 5.119,
+    "bias": 0.001,
+    "n": 499
+   }
+  },
+  "0.5": {
+   "t_flat": {
+    "rmse": 2.41,
+    "bias": -0.109,
+    "n": 2051
+   },
+   "t_prorata": {
+    "rmse": 2.639,
+    "bias": 0.375,
+    "n": 2051
+   },
+   "t_vacuum": {
+    "rmse": 2.405,
+    "bias": -0.125,
+    "n": 2051
+   },
+   "c_flat": {
+    "rmse": 5.285,
+    "bias": -0.529,
+    "n": 499
+   },
+   "c_prorata": {
+    "rmse": 5.82,
+    "bias": 1.123,
+    "n": 499
+   },
+   "c_vacuum": {
+    "rmse": 5.117,
+    "bias": 0.028,
+    "n": 499
+   }
+  }
+ },
+ "team_games_with_absent_star": {
+  "2025": 298,
+  "2026": 141
+ },
+ "ship_targets": true,
+ "ship_carries": true,
+ "ship_form": false
+}

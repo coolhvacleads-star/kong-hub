@@ -1,0 +1,485 @@
+{
+  "season": 2026,
+  "week": 12,
+  "generated_at": "2026-11-28T06:04:18Z",
+  "team_changes": [
+    {
+      "player": "Avery Smith",
+      "position": "CB",
+      "from": "SEA",
+      "last_week": 9,
+      "to": "LAC"
+    },
+    {
+      "player": "Corey Thornton",
+      "position": "CB",
+      "from": "CAR",
+      "last_week": 10,
+      "to": "TEN"
+    },
+    {
+      "player": "Isaac Yiadom",
+      "position": "CB",
+      "from": "WSH",
+      "last_week": 5,
+      "to": "CHI"
+    },
+    {
+      "player": "Jaylon Jones",
+      "position": "CB",
+      "from": "JAX",
+      "last_week": 11,
+      "to": "TEN"
+    },
+    {
+      "player": "Jamree Kromah",
+      "position": "DE",
+      "from": "MIA",
+      "last_week": 10,
+      "to": "CLE"
+    },
+    {
+      "player": "Christian Haynes",
+      "position": "G",
+      "from": "SEA",
+      "last_week": 7,
+      "to": "MIA"
+    },
+    {
+      "player": "Trevor Keegan",
+      "position": "G",
+      "from": "MIN",
+      "last_week": 8,
+      "to": "TB"
+    },
+    {
+      "player": "Tyrus Wheat",
+      "position": "LB",
+      "from": "DAL",
+      "last_week": 6,
+      "to": "DET"
+    },
+    {
+      "player": "Andy Dalton",
+      "position": "QB",
+      "from": "PHI",
+      "last_week": 3,
+      "to": "ATL"
+    },
+    {
+      "player": "Ajani Cornelius",
+      "position": "T",
+      "from": "DAL",
+      "last_week": 8,
+      "to": "PHI"
+    },
+    {
+      "player": "Fred Johnson",
+      "position": "T",
+      "from": "PHI",
+      "last_week": 9,
+      "to": "KC"
+    }
+  ],
+  "espn_diff": [
+    {
+      "player": "Aaron Rodgers",
+      "from": "PIT",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Alex Bachman",
+      "from": "LAR",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Andy Dalton",
+      "from": "PHI",
+      "to": "ATL",
+      "status": "active",
+      "note": "ESPN team ATL active; nflverse also had PHI"
+    },
+    {
+      "player": "Audric Estime",
+      "from": "CLE",
+      "to": "NO",
+      "status": "active",
+      "note": "ESPN team NO active; nflverse also had CLE"
+    },
+    {
+      "player": "Brandin Cooks",
+      "from": "SF",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on SF"
+    },
+    {
+      "player": "Brandon Johnson",
+      "from": "PIT",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on PIT"
+    },
+    {
+      "player": "Brandon Smith",
+      "from": "PIT",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on PIT"
+    },
+    {
+      "player": "Brennan Presley",
+      "from": "LAR",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on LAR"
+    },
+    {
+      "player": "Carsen Ryan",
+      "from": "CLE",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on CLE"
+    },
+    {
+      "player": "Carson Steele",
+      "from": "PHI",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Charlie Jones",
+      "from": "NYG",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NYG"
+    },
+    {
+      "player": "Coleman Owen",
+      "from": "GB",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on GB"
+    },
+    {
+      "player": "Cooper Rush",
+      "from": "ATL",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Craig Reynolds",
+      "from": "WSH",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Daniel Jones",
+      "from": "IND",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Dare Ogunbowale",
+      "from": "HOU",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "David Moore",
+      "from": "CAR",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on CAR"
+    },
+    {
+      "player": "David Sills V",
+      "from": "TB",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "E.J. Jenkins",
+      "from": "PHI",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on ATL"
+    },
+    {
+      "player": "Emari Demercado",
+      "from": "DAL",
+      "to": "HOU",
+      "status": "active",
+      "note": "ESPN team HOU active; nflverse also had DAL"
+    },
+    {
+      "player": "Frank Gore Jr.",
+      "from": "BUF",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on BUF"
+    },
+    {
+      "player": "Gary Jennings Jr",
+      "from": "LAC",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Gregory Desrosiers",
+      "from": "NYG",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Hayden Rucci",
+      "from": "LAC",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on PHI"
+    },
+    {
+      "player": "J.K. Dobbins",
+      "from": "DEN",
+      "to": null,
+      "status": "news",
+      "note": "ESPN news on DEN"
+    },
+    {
+      "player": "Jackson Meeks",
+      "from": "DET",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on DET"
+    },
+    {
+      "player": "Jacob De Jesus",
+      "from": "KC",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on SEA"
+    },
+    {
+      "player": "Jacoby Brissett",
+      "from": "ARI",
+      "to": "BAL",
+      "status": "active",
+      "note": "ESPN team BAL active; nflverse also had ARI"
+    },
+    {
+      "player": "Jamaal Pritchett",
+      "from": "NYJ",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NYJ"
+    },
+    {
+      "player": "Jared Wayne",
+      "from": "HOU",
+      "to": "MIA",
+      "status": "active",
+      "note": "ESPN team MIA active; nflverse also had HOU"
+    },
+    {
+      "player": "Jimmy Horn Jr.",
+      "from": "CAR",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on CLE"
+    },
+    {
+      "player": "Josh Downs",
+      "from": "IND",
+      "to": "KC",
+      "status": "active",
+      "note": "ESPN team KC active; nflverse also had IND"
+    },
+    {
+      "player": "Josiah Deguara",
+      "from": "PHI",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Kaytron Allen",
+      "from": "WSH",
+      "to": "MIA",
+      "status": "active",
+      "note": "ESPN team MIA active; nflverse also had WSH"
+    },
+    {
+      "player": "Ke'Shawn Williams",
+      "from": "CIN",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on CIN"
+    },
+    {
+      "player": "Keenan Allen",
+      "from": "IND",
+      "to": "SF",
+      "status": "active",
+      "note": "ESPN team SF active; nflverse also had IND"
+    },
+    {
+      "player": "Kendre Miller",
+      "from": "NO",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on DAL"
+    },
+    {
+      "player": "Kenny Yeboah",
+      "from": "ARI",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on ARI"
+    },
+    {
+      "player": "Kevin Austin Jr.",
+      "from": "NO",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NO"
+    },
+    {
+      "player": "Kirk Cousins",
+      "from": "LV",
+      "to": "MIN",
+      "status": "active",
+      "note": "ESPN team MIN active; nflverse also had LV"
+    },
+    {
+      "player": "LaJohntay Wester",
+      "from": "BAL",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Malik Turner",
+      "from": "SF",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Marquez Valdes-Scantling",
+      "from": "LAC",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on PIT"
+    },
+    {
+      "player": "Marquise Brown",
+      "from": "PHI",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Marvin Harrison Jr.",
+      "from": "ARI",
+      "to": "HOU",
+      "status": "active",
+      "note": "ESPN team HOU active; nflverse also had ARI"
+    },
+    {
+      "player": "Najee Harris",
+      "from": "NYG",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Nathan Carter",
+      "from": "KC",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    },
+    {
+      "player": "Nikko Remigio",
+      "from": "KC",
+      "to": "HOU",
+      "status": "active",
+      "note": "ESPN team HOU active; nflverse also had KC"
+    },
+    {
+      "player": "Odell Beckham Jr.",
+      "from": "NYG",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on MIN"
+    },
+    {
+      "player": "Pierre Strong Jr.",
+      "from": "GB",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on GB"
+    },
+    {
+      "player": "Ryan Miller",
+      "from": "MIA",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NE"
+    },
+    {
+      "player": "Tanner Arkin",
+      "from": "NE",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NE"
+    },
+    {
+      "player": "Theo Wease Jr.",
+      "from": "LAC",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on LAC"
+    },
+    {
+      "player": "Trent Sherfield",
+      "from": "BUF",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on BUF"
+    },
+    {
+      "player": "Treyton Welch",
+      "from": "NO",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on NO"
+    },
+    {
+      "player": "Velus Jones Jr.",
+      "from": "SEA",
+      "to": null,
+      "status": "practice-squad",
+      "note": "ESPN practice-squad on SEA"
+    },
+    {
+      "player": "Zonovan Knight",
+      "from": "ARI",
+      "to": null,
+      "status": "absent",
+      "note": "not on an ESPN roster"
+    }
+  ]
+}

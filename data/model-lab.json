@@ -1,0 +1,404 @@
+{
+  "freshness": "160215 player-weeks, seasons 2021\u20132026",
+  "close_capture": {
+    "path": "/workspace/pwa/data/closes/week-2026-09.json",
+    "rows": 514,
+    "captured_at": "2026-11-10T17:59:43Z"
+  },
+  "credits": [
+    "nflverse/nflreadpy 0.1.5, MIT. nflverse/nfl_data_py, MIT, archived; same release files are the fallback.",
+    "koltbern15/Sports-Betting has no license. The win-rate, ROI, Wilson interval, and breakeven test are a fresh implementation.",
+    "gsterk23/nfl-prop-predictor has no license. Last-5 usage was tested and is listed below; the code was not copied.",
+    "LeSingh1/edge-nfl, MIT. Platt scaling is the fit already in hub/nfl_calibrate.py. A one-week isotonic fit was not applied.",
+    "mattleonard16/nflalgorithm, MIT. Gamma was compared with the current normal/Poisson draws.",
+    "sportsdataverse-py, MIT. Not added. Team EPA and pace are already on the matchup card.",
+    "odds-api.io is a disabled adapter. No key, no sign-up.",
+    "Named XGBoost repos (chukse, varnsen SWIFT) were not found with a confirmed license. A small tree was tested locally and is not the live projection."
+  ],
+  "active": [
+    {
+      "market": "receptions, yards, rush yards",
+      "model": "player's own rate blended 45/55 with the posted line",
+      "shipped": true
+    },
+    {
+      "market": "anytime TD, yes +150 or longer",
+      "model": "probability capped at the posted price (Week 9 lesson)",
+      "shipped": true
+    },
+    {
+      "market": "counts",
+      "model": "Poisson draw",
+      "shipped": true
+    },
+    {
+      "market": "yards",
+      "model": "wide normal draw around the blended mean",
+      "shipped": true
+    },
+    {
+      "market": "receptions residual",
+      "model": "XGBoost",
+      "shipped": false
+    }
+  ],
+  "tests": [
+    {
+      "name": "last-5 vs season rate, 2025 receptions",
+      "result": "season MAE 1.25, last-5 MAE 1.26. Season rate matches or beats last-5, so the sim keeps the season rate."
+    },
+    {
+      "name": "Poisson receptions, 2025",
+      "result": "Brier of P(over the season rate) is 0.24. Kept. A boosted tree was checked next."
+    },
+    {
+      "name": "XGBoost receptions, 2025 holdout",
+      "result": "season rate matched or beat the tree, so the tree stays off the board MAE season 1.245, last-5 1.263, tree 1.2630000114440918."
+    },
+    {
+      "name": "last-5 vs season rate, 2025 receiving yards",
+      "result": "season MAE 16.54, last-5 MAE 17.02. Season rate matches or beats last-5, so the sim keeps the season rate."
+    },
+    {
+      "name": "Gamma vs normal, 2025 receiving yards",
+      "result": "Weeks finished over the season rate 40.5% of the time. A Gamma(shape 4) says 56.7%. A normal centered on the rate says 50%. The normal is closer, so yards stay on the current draw."
+    },
+    {
+      "name": "last-5 vs season rate, 2025 rush yards",
+      "result": "season MAE 19.85, last-5 MAE 20.38. Season rate matches or beats last-5, so the sim keeps the season rate."
+    },
+    {
+      "name": "Gamma vs normal, 2025 rush yards",
+      "result": "Weeks finished over the season rate 42.1% of the time. A Gamma(shape 4) says 56.7%. A normal centered on the rate says 50%. The normal is closer, so yards stay on the current draw."
+    },
+    {
+      "name": "last-5 vs season rate, 2025 pass yards",
+      "result": "season MAE 67.92, last-5 MAE 69.0. Season rate matches or beats last-5, so the sim keeps the season rate."
+    },
+    {
+      "name": "Gamma vs normal, 2025 pass yards",
+      "result": "Weeks finished over the season rate 53.8% of the time. A Gamma(shape 4) says 56.7%. A normal centered on the rate says 50%. The normal is closer, so yards stay on the current draw."
+    },
+    {
+      "name": "isotonic on Week 9 anytime",
+      "result": "Not fit. One week would train and grade the same bets. Platt on the schedule backtest is already applied and is the calibrator that improved spread Brier from 0.283 to 0.250."
+    },
+    {
+      "name": "2025 alt-rung streaks of 8+",
+      "result": "{\"short\": {\"n\": 704, \"hit\": 0.821, \"wilson_low\": 0.791}, \"near\": {\"n\": 26, \"hit\": 0.615, \"wilson_low\": 0.425}, \"long\": {\"n\": 0, \"hit\": null, \"wilson_low\": null}, \"note\": \"2025 alt prices are not in the free archive, so buckets are how far the rung sits from the player's own rate: short (at or under 75% of that rate), near, and long (over 115%).\"}"
+    }
+  ],
+  "week9": {
+    "overall": {
+      "n": 493,
+      "wins": 195,
+      "losses": 298,
+      "hit": 0.396,
+      "wilson": [
+        0.353,
+        0.439
+      ],
+      "p_value": 0.0,
+      "units": -24.84,
+      "roi": -0.05,
+      "units_at_110": -120.73
+    },
+    "by_market": {
+      "anytime_td": {
+        "n": 210,
+        "wins": 42,
+        "losses": 168,
+        "hit": 0.2,
+        "wilson": [
+          0.152,
+          0.259
+        ],
+        "p_value": 0.0,
+        "units": -33.63,
+        "roi": -0.16,
+        "units_at_110": -129.82
+      },
+      "completions": {
+        "n": 26,
+        "wins": 12,
+        "losses": 14,
+        "hit": 0.462,
+        "wilson": [
+          0.288,
+          0.645
+        ],
+        "p_value": 0.525,
+        "units": -3.15,
+        "roi": -0.121,
+        "units_at_110": -3.09
+      },
+      "pass_td": {
+        "n": 2,
+        "wins": 1,
+        "losses": 1,
+        "hit": 0.5,
+        "wilson": [
+          0.095,
+          0.905
+        ],
+        "p_value": null,
+        "units": 0.62,
+        "roi": 0.31,
+        "units_at_110": -0.09
+      },
+      "pass_yds": {
+        "n": 26,
+        "wins": 14,
+        "losses": 12,
+        "hit": 0.538,
+        "wilson": [
+          0.355,
+          0.712
+        ],
+        "p_value": 0.881,
+        "units": 0.45,
+        "roi": 0.017,
+        "units_at_110": 0.73
+      },
+      "rec_yds": {
+        "n": 87,
+        "wins": 48,
+        "losses": 39,
+        "hit": 0.552,
+        "wilson": [
+          0.447,
+          0.652
+        ],
+        "p_value": 0.602,
+        "units": 3.71,
+        "roi": 0.043,
+        "units_at_110": 4.64
+      },
+      "receptions": {
+        "n": 97,
+        "wins": 52,
+        "losses": 45,
+        "hit": 0.536,
+        "wilson": [
+          0.437,
+          0.632
+        ],
+        "p_value": 0.809,
+        "units": 3.02,
+        "roi": 0.031,
+        "units_at_110": 2.27
+      },
+      "rush_yds": {
+        "n": 45,
+        "wins": 26,
+        "losses": 19,
+        "hit": 0.578,
+        "wilson": [
+          0.433,
+          0.71
+        ],
+        "p_value": 0.468,
+        "units": 4.15,
+        "roi": 0.092,
+        "units_at_110": 4.64
+      }
+    },
+    "by_bucket": {
+      "0-5": {
+        "n": 241,
+        "wins": 104,
+        "losses": 137,
+        "hit": 0.432,
+        "wilson": [
+          0.371,
+          0.495
+        ],
+        "p_value": 0.004,
+        "units": -0.41,
+        "roi": -0.002,
+        "units_at_110": -42.45
+      },
+      "10-20": {
+        "n": 83,
+        "wins": 27,
+        "losses": 56,
+        "hit": 0.325,
+        "wilson": [
+          0.234,
+          0.432
+        ],
+        "p_value": 0.0,
+        "units": 2.71,
+        "roi": 0.033,
+        "units_at_110": -31.45
+      },
+      "20+": {
+        "n": 43,
+        "wins": 4,
+        "losses": 39,
+        "hit": 0.093,
+        "wilson": [
+          0.037,
+          0.216
+        ],
+        "p_value": 0.0,
+        "units": -17.5,
+        "roi": -0.407,
+        "units_at_110": -35.36
+      },
+      "5-10": {
+        "n": 126,
+        "wins": 60,
+        "losses": 66,
+        "hit": 0.476,
+        "wilson": [
+          0.391,
+          0.563
+        ],
+        "p_value": 0.285,
+        "units": -9.63,
+        "roi": -0.076,
+        "units_at_110": -11.45
+      }
+    },
+    "by_book": {
+      "DK": {
+        "n": 299,
+        "wins": 118,
+        "losses": 181,
+        "hit": 0.395,
+        "wilson": [
+          0.341,
+          0.451
+        ],
+        "p_value": 0.0,
+        "units": -27.32,
+        "roi": -0.091,
+        "units_at_110": -73.73
+      },
+      "FD": {
+        "n": 194,
+        "wins": 77,
+        "losses": 117,
+        "hit": 0.397,
+        "wilson": [
+          0.331,
+          0.467
+        ],
+        "p_value": 0.0,
+        "units": 2.48,
+        "roi": 0.013,
+        "units_at_110": -47.0
+      }
+    },
+    "by_pos": {
+      "QB": {
+        "n": 84,
+        "wins": 33,
+        "losses": 51,
+        "hit": 0.393,
+        "wilson": [
+          0.295,
+          0.5
+        ],
+        "p_value": 0.016,
+        "units": 8.94,
+        "roi": 0.106,
+        "units_at_110": -21.0
+      },
+      "RB": {
+        "n": 120,
+        "wins": 49,
+        "losses": 71,
+        "hit": 0.408,
+        "wilson": [
+          0.325,
+          0.498
+        ],
+        "p_value": 0.011,
+        "units": -20.83,
+        "roi": -0.174,
+        "units_at_110": -26.45
+      },
+      "TE": {
+        "n": 98,
+        "wins": 33,
+        "losses": 65,
+        "hit": 0.337,
+        "wilson": [
+          0.251,
+          0.435
+        ],
+        "p_value": 0.0,
+        "units": -17.58,
+        "roi": -0.179,
+        "units_at_110": -35.0
+      },
+      "WR": {
+        "n": 191,
+        "wins": 80,
+        "losses": 111,
+        "hit": 0.419,
+        "wilson": [
+          0.351,
+          0.49
+        ],
+        "p_value": 0.004,
+        "units": 4.64,
+        "roi": 0.024,
+        "units_at_110": -38.27
+      }
+    }
+  },
+  "schedule_backtest": {
+    "n_sims": 200,
+    "note": "Existing drive-sim backtest on 2023-2026 nflverse lines. The Week 9 anytime cap does not touch this simulator, so before and after are the same numbers.",
+    "markets": [
+      {
+        "market": "spread",
+        "before_brier": 0.283,
+        "after_brier": 0.25,
+        "log_loss": 0.693,
+        "hit": 0.509,
+        "n": 952,
+        "detail": "Platt already in hub/nfl_calibrate.py. Raw Brier 0.283, walk-forward 0.250."
+      },
+      {
+        "market": "total",
+        "before_brier": 0.285,
+        "after_brier": 0.253,
+        "log_loss": 0.699,
+        "hit": 0.466,
+        "n": 952,
+        "detail": "Raw Brier 0.285, walk-forward 0.253."
+      },
+      {
+        "market": "pass_yds",
+        "mae": 64.53,
+        "baseline_mae": 64.7,
+        "brier": 0.249,
+        "hit": 0.521,
+        "n": 1349,
+        "detail": "Walk-forward MAE matches the season average. No new model shipped."
+      },
+      {
+        "market": "rush_yds",
+        "mae": 25.4,
+        "baseline_mae": 25.52,
+        "brier": 0.249,
+        "hit": 0.521,
+        "n": 2348,
+        "detail": "Matches the season average."
+      },
+      {
+        "market": "rec_yds",
+        "mae": 25.58,
+        "baseline_mae": 25.56,
+        "brier": 0.25,
+        "hit": 0.446,
+        "n": 4959,
+        "detail": "Season average is a hair better. Current blend kept."
+      }
+    ]
+  }
+}

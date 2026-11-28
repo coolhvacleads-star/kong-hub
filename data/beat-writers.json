@@ -1,0 +1,500 @@
+{
+  "updated_ct": "Fri 2:10 PM CT",
+  "timezone": "America/Chicago",
+  "note": "Verified current beat-writer handles (wrong or dead accounts removed). The GitHub Action reads X only when the X_BEARER_TOKEN repo secret is set. If it is not, a compiler outside the Action writes data/beat-x.json, and the Locker tab shows those posts under Beat (X). ATL and LAC did not have a confirmed active handle at compile time.",
+  "handle_count": 66,
+  "teams_missing_handles": [
+    "ATL",
+    "LAC"
+  ],
+  "teams": {
+    "ARI": {
+      "name": "Arizona Cardinals",
+      "writers": [
+        {
+          "name": "Darren Urban",
+          "handle": "DarrenUrban",
+          "outlet": "azcardinals.com"
+        }
+      ]
+    },
+    "ATL": {
+      "name": "Atlanta Falcons",
+      "writers": []
+    },
+    "BAL": {
+      "name": "Baltimore Ravens",
+      "writers": [
+        {
+          "name": "Jeff Zrebiec",
+          "handle": "jeffzrebiec",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "Jamison Hensley",
+          "handle": "jamisonhensley",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Jonas Shaffer",
+          "handle": "jonas_shaffer",
+          "outlet": "The Baltimore Banner"
+        }
+      ]
+    },
+    "BUF": {
+      "name": "Buffalo Bills",
+      "writers": [
+        {
+          "name": "Jay Skurski",
+          "handle": "JaySkurski",
+          "outlet": "The Buffalo News"
+        },
+        {
+          "name": "Sal Capaccio",
+          "handle": "SalSports",
+          "outlet": "WGR"
+        }
+      ]
+    },
+    "CAR": {
+      "name": "Carolina Panthers",
+      "writers": [
+        {
+          "name": "Joe Person",
+          "handle": "JoePerson",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "CHI": {
+      "name": "Chicago Bears",
+      "writers": [
+        {
+          "name": "Brad Biggs",
+          "handle": "BradBiggs",
+          "outlet": "Chicago Tribune"
+        },
+        {
+          "name": "Courtney Cronin",
+          "handle": "CourtneyRCronin",
+          "outlet": "ESPN"
+        }
+      ]
+    },
+    "CIN": {
+      "name": "Cincinnati Bengals",
+      "writers": [
+        {
+          "name": "Paul Dehner Jr.",
+          "handle": "pauldehnerjr",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "James Rapien",
+          "handle": "JamesRapien",
+          "outlet": "local / The Growler"
+        }
+      ]
+    },
+    "CLE": {
+      "name": "Cleveland Browns",
+      "writers": [
+        {
+          "name": "Mary Kay Cabot",
+          "handle": "MaryKayCabot",
+          "outlet": "Cleveland.com"
+        },
+        {
+          "name": "Scott Petrak",
+          "handle": "ScottPetrak",
+          "outlet": "Chronicle-Telegram"
+        }
+      ]
+    },
+    "DAL": {
+      "name": "Dallas Cowboys",
+      "writers": [
+        {
+          "name": "Clarence Hill Jr.",
+          "handle": "clarencehilljr",
+          "outlet": "longtime Cowboys beat"
+        },
+        {
+          "name": "Jon Machota",
+          "handle": "jonmachota",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "Todd Archer",
+          "handle": "toddarcher",
+          "outlet": "ESPN"
+        }
+      ]
+    },
+    "DEN": {
+      "name": "Denver Broncos",
+      "writers": [
+        {
+          "name": "Aric DiLalla",
+          "handle": "AricDiLalla",
+          "outlet": "denverbroncos.com"
+        }
+      ]
+    },
+    "DET": {
+      "name": "Detroit Lions",
+      "writers": [
+        {
+          "name": "Dave Birkett",
+          "handle": "davebirkett",
+          "outlet": "Detroit Free Press"
+        },
+        {
+          "name": "Kyle Meinke",
+          "handle": "kmeinke",
+          "outlet": "MLive"
+        },
+        {
+          "name": "Justin Rogers",
+          "handle": "JustinRRogers",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "GB": {
+      "name": "Green Bay Packers",
+      "writers": [
+        {
+          "name": "Tom Silverstein",
+          "handle": "TomSilverstein",
+          "outlet": "Milwaukee Journal Sentinel"
+        },
+        {
+          "name": "Wes Hodkiewicz",
+          "handle": "WesHod",
+          "outlet": "packers.com"
+        }
+      ]
+    },
+    "HOU": {
+      "name": "Houston Texans",
+      "writers": [
+        {
+          "name": "Aaron Wilson",
+          "handle": "AaronWilson_NFL",
+          "outlet": "KPRC"
+        },
+        {
+          "name": "Brooks Kubena",
+          "handle": "BrooksKubena",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "IND": {
+      "name": "Indianapolis Colts",
+      "writers": [
+        {
+          "name": "George Bremer",
+          "handle": "GeorgeBremer",
+          "outlet": "CNHI / Colts beat"
+        }
+      ]
+    },
+    "JAX": {
+      "name": "Jacksonville Jaguars",
+      "writers": [
+        {
+          "name": "John Oehser",
+          "handle": "JohnOehser",
+          "outlet": "jaguars.com"
+        },
+        {
+          "name": "Michael DiRocco",
+          "handle": "ESPNdirocco",
+          "outlet": "ESPN"
+        }
+      ]
+    },
+    "KC": {
+      "name": "Kansas City Chiefs",
+      "writers": [
+        {
+          "name": "Nate Taylor",
+          "handle": "nate_taylor",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "Adam Teicher",
+          "handle": "adamteicher",
+          "outlet": "ESPN"
+        }
+      ]
+    },
+    "LV": {
+      "name": "Las Vegas Raiders",
+      "writers": [
+        {
+          "name": "Vincent Bonsignore",
+          "handle": "VinnyBonsignore",
+          "outlet": "Las Vegas Review-Journal"
+        }
+      ]
+    },
+    "LAC": {
+      "name": "Los Angeles Chargers",
+      "writers": []
+    },
+    "LAR": {
+      "name": "Los Angeles Rams",
+      "writers": [
+        {
+          "name": "Jourdan Rodrigue",
+          "handle": "JourdanRodrigue",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "MIA": {
+      "name": "Miami Dolphins",
+      "writers": [
+        {
+          "name": "Cameron Wolfe",
+          "handle": "CameronWolfe",
+          "outlet": "ESPN / NFL Network"
+        },
+        {
+          "name": "Omar Kelly",
+          "handle": "OmarKelly",
+          "outlet": "Miami Herald"
+        },
+        {
+          "name": "David Furones",
+          "handle": "DavidFurones_",
+          "outlet": "Sun Sentinel"
+        }
+      ]
+    },
+    "MIN": {
+      "name": "Minnesota Vikings",
+      "writers": [
+        {
+          "name": "Ben Goessling",
+          "handle": "BenGoessling",
+          "outlet": "Star Tribune"
+        },
+        {
+          "name": "Alec Lewis",
+          "handle": "alec_lewis",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "Judd Zulgad",
+          "handle": "JuddZulgad",
+          "outlet": "SKOR North"
+        }
+      ]
+    },
+    "NE": {
+      "name": "New England Patriots",
+      "writers": [
+        {
+          "name": "Mike Reiss",
+          "handle": "MikeReiss",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Evan Lazar",
+          "handle": "evanlazar",
+          "outlet": "patriots.com"
+        }
+      ]
+    },
+    "NO": {
+      "name": "New Orleans Saints",
+      "writers": [
+        {
+          "name": "Katherine Terrell",
+          "handle": "katterrell",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Nick Underhill",
+          "handle": "nick_underhill",
+          "outlet": "New Orleans Football"
+        },
+        {
+          "name": "John DeShazier",
+          "handle": "JohnDeShazier",
+          "outlet": "neworleanssaints.com"
+        }
+      ]
+    },
+    "NYG": {
+      "name": "New York Giants",
+      "writers": [
+        {
+          "name": "Art Stapleton",
+          "handle": "art_stapleton",
+          "outlet": "NorthJersey.com"
+        },
+        {
+          "name": "Jordan Raanan",
+          "handle": "JordanRaanan",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Dan Salomone",
+          "handle": "Dan_Salomone",
+          "outlet": "giants.com"
+        }
+      ]
+    },
+    "NYJ": {
+      "name": "New York Jets",
+      "writers": [
+        {
+          "name": "Rich Cimini",
+          "handle": "RichCimini",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Brian Costello",
+          "handle": "BrianCCostello",
+          "outlet": "New York Post"
+        },
+        {
+          "name": "Zack Rosenblatt",
+          "handle": "ZackRosenblatt",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "PHI": {
+      "name": "Philadelphia Eagles",
+      "writers": [
+        {
+          "name": "Jeff McLane",
+          "handle": "Jeff_McLane",
+          "outlet": "Philadelphia Inquirer"
+        },
+        {
+          "name": "Zach Berman",
+          "handle": "ZBerm",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "Eliot Shorr-Parks",
+          "handle": "EliotShorrParks",
+          "outlet": "local / Eagles beat"
+        }
+      ]
+    },
+    "PIT": {
+      "name": "Pittsburgh Steelers",
+      "writers": [
+        {
+          "name": "Gerry Dulac",
+          "handle": "gerrydulac",
+          "outlet": "Pittsburgh Post-Gazette"
+        },
+        {
+          "name": "Brooke Pryor",
+          "handle": "bepryor",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Mark Kaboly",
+          "handle": "MarkKaboly",
+          "outlet": "The Pat McAfee Show / longtime beat"
+        }
+      ]
+    },
+    "SEA": {
+      "name": "Seattle Seahawks",
+      "writers": [
+        {
+          "name": "Bob Condotta",
+          "handle": "bcondotta",
+          "outlet": "The Seattle Times"
+        },
+        {
+          "name": "Michael-Shawn Dugar",
+          "handle": "MikeDugar",
+          "outlet": "The Athletic"
+        }
+      ]
+    },
+    "SF": {
+      "name": "San Francisco 49ers",
+      "writers": [
+        {
+          "name": "Matt Maiocco",
+          "handle": "MaioccoNBCS",
+          "outlet": "NBC Sports Bay Area"
+        },
+        {
+          "name": "David Lombardi",
+          "handle": "LombardiHimself",
+          "outlet": "The San Francisco Standard"
+        },
+        {
+          "name": "Eric Branch",
+          "handle": "Eric_Branch",
+          "outlet": "San Francisco Chronicle"
+        },
+        {
+          "name": "Vic Tafur",
+          "handle": "VicTafur",
+          "outlet": "The Athletic (49ers)"
+        }
+      ]
+    },
+    "TB": {
+      "name": "Tampa Bay Buccaneers",
+      "writers": [
+        {
+          "name": "Jenna Laine",
+          "handle": "JennaLaineESPN",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "Greg Auman",
+          "handle": "gregauman",
+          "outlet": "FOX Sports"
+        }
+      ]
+    },
+    "TEN": {
+      "name": "Tennessee Titans",
+      "writers": [
+        {
+          "name": "Paul Kuharsky",
+          "handle": "PaulKuharskyNFL",
+          "outlet": "independent Titans beat"
+        }
+      ]
+    },
+    "WSH": {
+      "name": "Washington Commanders",
+      "writers": [
+        {
+          "name": "Nicki Jhabvala",
+          "handle": "nicki_jhabvala",
+          "outlet": "The Athletic"
+        },
+        {
+          "name": "John Keim",
+          "handle": "john_keim",
+          "outlet": "ESPN"
+        },
+        {
+          "name": "JP Finlay",
+          "handle": "JPFinlayNBCS",
+          "outlet": "NBC Sports Washington"
+        }
+      ]
+    }
+  }
+}

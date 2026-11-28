@@ -1,0 +1,209 @@
+{
+  "season": 2026,
+  "week": 9,
+  "held_out": true,
+  "plain_sim": {
+    "n": 493,
+    "wins": 195,
+    "losses": 298,
+    "hit": 0.396,
+    "units": -24.84,
+    "roi": -0.05,
+    "clv_n": 0,
+    "clv": null
+  },
+  "old_war_room": {
+    "n": 255,
+    "wins": 91,
+    "losses": 164,
+    "hit": 0.357,
+    "units": -27.91,
+    "roi": -0.109,
+    "clv_n": 0,
+    "clv": null
+  },
+  "war_room": {
+    "n": 3,
+    "wins": 1,
+    "losses": 2,
+    "hit": 0.333,
+    "units": -1.12,
+    "roi": -0.373,
+    "clv_n": 0,
+    "clv": null
+  },
+  "persona_brier": {
+    "professor": 0.2064,
+    "alpha": 0.2065,
+    "actuary": 0.2054,
+    "coordinator": 0.2076,
+    "nick_notes": 0.25
+  },
+  "weights": {
+    "pass_yds": {
+      "professor": 0.2499,
+      "alpha": 0.2485,
+      "actuary": 0.2511,
+      "coordinator": 0.2506
+    },
+    "rush_yds": {
+      "professor": 0.2505,
+      "alpha": 0.2493,
+      "actuary": 0.2639,
+      "coordinator": 0.2363
+    },
+    "rec_yds": {
+      "professor": 0.2507,
+      "alpha": 0.2503,
+      "actuary": 0.2547,
+      "coordinator": 0.2444
+    },
+    "receptions": {
+      "professor": 0.2552,
+      "alpha": 0.24,
+      "actuary": 0.2453,
+      "coordinator": 0.2594
+    }
+  },
+  "beats_plain_sim": false,
+  "note": "Week 9 is held out of the weight update. The v2 meeting ground did not beat the plain sim on ROI. CLV is null.",
+  "parlays": {
+    "season": 2026,
+    "week": 9,
+    "held_out": true,
+    "draws": 800,
+    "desk": {
+      "n": 1,
+      "wins": 0,
+      "losses": 1,
+      "units": -0.15,
+      "roi": -0.15
+    },
+    "naive_stack": {
+      "n": 2,
+      "wins": 0,
+      "losses": 2,
+      "units": -0.02,
+      "roi": -0.01
+    },
+    "tickets": [
+      {
+        "hit": false,
+        "stake": 0.15,
+        "units": -0.15,
+        "joint_p": 0.3713,
+        "label": "Michael Wilson over receptions / Trey McBride over rec_yds",
+        "ev": 0.3811
+      }
+    ],
+    "calibration": [
+      {
+        "bucket": "0.20-0.30",
+        "n": 1,
+        "predicted": 0.244,
+        "actual": 1.0
+      },
+      {
+        "bucket": "0.30-0.40",
+        "n": 2,
+        "predicted": 0.374,
+        "actual": 0.0
+      },
+      {
+        "bucket": "0.40-0.50",
+        "n": 0,
+        "predicted": null,
+        "actual": null
+      },
+      {
+        "bucket": "0.50-1.00",
+        "n": 0,
+        "predicted": null,
+        "actual": null
+      }
+    ],
+    "beats_naive": false,
+    "note": "Week 9 is held out. The desk put up 0-1 for -0.15u across 1 ticket(s). The naive stack was 0-2 for -0.02u. Too few tickets to call a winner.",
+    "correlation": [
+      {
+        "pair": "qb_wr1_yds",
+        "empirical": 0.498,
+        "sim": 0.493,
+        "gap": -0.005
+      },
+      {
+        "pair": "qb_wr1_rec",
+        "empirical": 0.404,
+        "sim": 0.431,
+        "gap": 0.027
+      },
+      {
+        "pair": "qb_wr2_yds",
+        "empirical": 0.433,
+        "sim": 0.458,
+        "gap": 0.025
+      },
+      {
+        "pair": "qb_wr2_rec",
+        "empirical": 0.339,
+        "sim": 0.299,
+        "gap": -0.04
+      },
+      {
+        "pair": "qb_te_yds",
+        "empirical": 0.353,
+        "sim": 0.351,
+        "gap": -0.002
+      },
+      {
+        "pair": "qb_te_rec",
+        "empirical": 0.284,
+        "sim": 0.267,
+        "gap": -0.017
+      },
+      {
+        "pair": "qb_rb_rush",
+        "empirical": -0.09,
+        "sim": -0.059,
+        "gap": 0.031
+      },
+      {
+        "pair": "opp_qb",
+        "empirical": 0.146,
+        "sim": 0.179,
+        "gap": 0.033
+      },
+      {
+        "pair": "wr_wr_yds",
+        "empirical": 0.037,
+        "sim": 0.021,
+        "gap": -0.016
+      },
+      {
+        "pair": "wr_wr_rec",
+        "empirical": 0.078,
+        "sim": 0.049,
+        "gap": -0.029
+      },
+      {
+        "pair": "same_rec_yds",
+        "empirical": 0.777,
+        "sim": 0.766,
+        "gap": -0.011
+      },
+      {
+        "pair": "rb_margin",
+        "empirical": 0.314,
+        "sim": 0.32,
+        "gap": 0.006
+      },
+      {
+        "pair": "qb_margin",
+        "empirical": 0.184,
+        "sim": 0.204,
+        "gap": 0.02
+      }
+    ],
+    "weeks_6_8": "No priced board for weeks 6-8 is on disk, so those parlays were not graded."
+  }
+}

@@ -1,0 +1,821 @@
+{
+  "generated_at": "2026-11-27T20:09:47Z",
+  "updated_ct": "Fri 2:09 PM CT",
+  "timezone": "America/Chicago",
+  "source": "session_compiler",
+  "note": "Compiled outside the GitHub Action from beat-writer posts. The Action will replace this file automatically if an X_BEARER_TOKEN repo secret is added.",
+  "teams": {
+    "BAL": [
+      {
+        "handle": "jeffzrebiec",
+        "name": "Jeff Zrebiec",
+        "text": "Minter said Marlon Humphrey will play Sunday.",
+        "published_at": "2026-11-27T19:31:35Z",
+        "published_ct": "Fri 1:31 PM CT",
+        "url": "https://x.com/jeffzrebiec/status/2126398551697863112",
+        "players": [
+          "Marlon Humphrey"
+        ],
+        "impact": "+2 boosts Marlon Humphrey's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "jeffzrebiec",
+        "name": "Jeff Zrebiec",
+        "text": "Minter said that Vega Ioane (hand) was hurt in yesterday's practice. He\u2019s out Sunday. Hawkins and Madubuike are also out.",
+        "published_at": "2026-11-27T19:30:40Z",
+        "published_ct": "Fri 1:30 PM CT",
+        "url": "https://x.com/jeffzrebiec/status/2126398320713011651",
+        "players": [
+          "Vega Ioane",
+          "Nnamdi Madubuike"
+        ],
+        "impact": "-2 cuts Vega Ioane's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "jeffzrebiec",
+        "name": "Jeff Zrebiec",
+        "text": "Ravens rookie RG Vega Ioane not practicing today after being added to injury report yesterday w/a hand injury. Also not practicing: DL Nnamdi Madubuike (hamstring), DL Calais Campbell, LT Ronnie Stanley. Madubuike obviously will be out Sunday. Campbell and Stanley traditionally rest.",
+        "published_at": "2026-11-27T18:22:43Z",
+        "published_ct": "Fri 12:22 PM CT",
+        "url": "https://x.com/jeffzrebiec/status/2126381218170388967",
+        "players": [
+          "Vega Ioane",
+          "Nnamdi Madubuike",
+          "Calais Campbell",
+          "Ronnie Stanley"
+        ],
+        "impact": "-2 cuts Nnamdi Madubuike's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "jeffzrebiec",
+        "name": "Jeff Zrebiec",
+        "text": "Derrick Henry upgraded to full participation, meaning he\u2019s on way out of protocol. Ioane and Awuzie added to report.",
+        "published_at": "2026-11-26T21:35:15Z",
+        "published_ct": "Thu 3:35 PM CT",
+        "url": "https://x.com/jeffzrebiec/status/2126067282849730938",
+        "players": [
+          "Derrick Henry"
+        ],
+        "impact": "+2 boosts Derrick Henry's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "jamisonhensley",
+        "name": "Jamison Hensley",
+        "text": "Ravens CB Marlon Humphrey will play Sunday at the Texans, coach Jesse Minter said. Humphrey was a healthy scratch last Sunday after making a derogatory remark about Baltimore on his podcast.",
+        "published_at": "2026-11-27T19:35:41Z",
+        "published_ct": "Fri 1:35 PM CT",
+        "url": "https://x.com/jamisonhensley/status/2126399582804299948",
+        "players": [
+          "Marlon Humphrey"
+        ],
+        "impact": "+2 boosts Marlon Humphrey's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "jamisonhensley",
+        "name": "Jamison Hensley",
+        "text": "Ravens rule out G Vega Ioane (hand) and DT Nnamdi Madubuike (hamstring) for Sunday\u2019s game at Texans. Ioane hurt his hand at Thursday\u2019s practice.",
+        "published_at": "2026-11-27T19:31:22Z",
+        "published_ct": "Fri 1:31 PM CT",
+        "url": "https://x.com/jamisonhensley/status/2126398496203014263",
+        "players": [
+          "Vega Ioane",
+          "Nnamdi Madubuike"
+        ],
+        "impact": "-2 cuts Vega Ioane's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "jamisonhensley",
+        "name": "Jamison Hensley",
+        "text": "Ravens RB Derrick Henry (concussion) was upgraded to full participant. DT Nnamdi Madubuike (hamstring) did not practice Thursday.",
+        "published_at": "2026-11-26T22:42:40Z",
+        "published_ct": "Thu 4:42 PM CT",
+        "url": "https://x.com/jamisonhensley/status/2126084250973999519",
+        "players": [
+          "Derrick Henry",
+          "Nnamdi Madubuike"
+        ],
+        "impact": "+1 nudges Derrick Henry's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "CHI": [
+      {
+        "handle": "BradBiggs",
+        "name": "Brad Biggs",
+        "text": "#Bears TE Colston Loveland will get a 2nd opinion on his left knee. No decision has been made on a potential injured reserve stint. That's potentially good news at this point for such an important part of the offense. The team is in a holding pattern.",
+        "published_at": "2026-11-27T18:00:43Z",
+        "published_ct": "Fri 12:00 PM CT",
+        "url": "https://x.com/BradBiggs/status/2126375680611086559",
+        "players": [
+          "Colston Loveland"
+        ],
+        "impact": "-2 cuts Colston Loveland's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "BradBiggs",
+        "name": "Brad Biggs",
+        "text": "Caleb Williams said he had his mid-section checked out after falling. Scans were clear and he said he\u2019s good.",
+        "published_at": "2026-11-26T22:25:33Z",
+        "published_ct": "Thu 4:25 PM CT",
+        "url": "https://x.com/BradBiggs/status/2126079943461523543",
+        "players": [
+          "Caleb Williams"
+        ],
+        "impact": "Beat note on Caleb Williams. No automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "CourtneyRCronin",
+        "name": "Courtney Cronin",
+        "text": "The Bears officially released a statement on the status of TE Colston Loveland (knee), who is categorized as week to week. He will not be placed on injured reserve right now.",
+        "published_at": "2026-11-27T19:05:47Z",
+        "published_ct": "Fri 1:05 PM CT",
+        "url": "https://x.com/CourtneyRCronin/status/2126392055303655600",
+        "players": [
+          "Colston Loveland"
+        ],
+        "impact": "-2 cuts Colston Loveland's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "CourtneyRCronin",
+        "name": "Courtney Cronin",
+        "text": "Per league source, Bears tight end Colston Loveland is considered week to week with the left knee injury. He will get a second opinion soon but no determination on whether he is an IR candidate has been made.",
+        "published_at": "2026-11-27T17:34:39Z",
+        "published_ct": "Fri 11:34 AM CT",
+        "url": "https://x.com/CourtneyRCronin/status/2126369123051454605",
+        "players": [
+          "Colston Loveland"
+        ],
+        "impact": "-2 cuts Colston Loveland's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      }
+    ],
+    "DET": [
+      {
+        "handle": "davebirkett",
+        "name": "Dave Birkett",
+        "text": "Detroit Lions lose rookie DT Skyler Gill-Howard for the season.",
+        "published_at": "2026-11-24T20:32:32Z",
+        "published_ct": "Tue 2:32 PM CT",
+        "url": "https://x.com/davebirkett/status/2125326725227893104",
+        "players": [
+          "Skyler Gill-Howard"
+        ],
+        "impact": "-2 cuts Skyler Gill-Howard's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "davebirkett",
+        "name": "Dave Birkett",
+        "text": "Colston Loveland being carted off for the Bears. Tate Ratledge back for the Lions.",
+        "published_at": "2026-11-26T18:30:39Z",
+        "published_ct": "Thu 12:30 PM CT",
+        "url": "https://x.com/davebirkett/status/2126020826801852601",
+        "players": [
+          "Tate Ratledge",
+          "Colston Loveland"
+        ],
+        "impact": "+1 nudges Tate Ratledge's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "GB": [
+      {
+        "handle": "TomSilverstein",
+        "name": "Tom Silverstein",
+        "text": "#Packers inactives: C Sean Rhyan, G Kevin Zeitler, Edge Micah Parsons and WR Skyy Moore are all active. RB Josh Jacobs and ILB Zaire Franklin are out. Inactives: RB Josh Jacobs, ILB Zaire Franklin, C Jager Burton, C/G Donovan Jennings, T Mekhi Becton.",
+        "published_at": "2026-11-25T23:47:53Z",
+        "published_ct": "Wed 5:47 PM CT",
+        "url": "https://x.com/TomSilverstein/status/2125738274249711793",
+        "players": [
+          "Josh Jacobs",
+          "Zaire Franklin",
+          "Micah Parsons",
+          "Sean Rhyan",
+          "Kevin Zeitler",
+          "Skyy Moore"
+        ],
+        "impact": "-2 cuts Josh Jacobs's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "TomSilverstein",
+        "name": "Tom Silverstein",
+        "text": "In warmups, it's Laken Tomlinson at left guard, Sean Rhyan at center and Kevin Zeitler at right guard with the #Packers OL starters.",
+        "published_at": "2026-11-26T00:40:25Z",
+        "published_ct": "Wed 6:40 PM CT",
+        "url": "https://x.com/TomSilverstein/status/2125751495215989153",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      },
+      {
+        "handle": "TomSilverstein",
+        "name": "Tom Silverstein",
+        "text": "#Packers injury report: G Aaron Banks upgraded to full participant; everyone else limited.",
+        "published_at": "2026-11-22T21:33:17Z",
+        "published_ct": "Sun 3:33 PM CT",
+        "url": "https://x.com/TomSilverstein/status/2124617236497490277",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 2
+      }
+    ],
+    "HOU": [
+      {
+        "handle": "AaronWilson_NFL",
+        "name": "Aaron Wilson",
+        "text": "Why #Texans wide receiver Marvin Harrison Jr. is 'excited to be back out there with the guys' as he returns from hamstring injury.",
+        "published_at": "2026-11-27T19:32:06Z",
+        "published_ct": "Fri 1:32 PM CT",
+        "url": "https://x.com/AaronWilson_NFL/status/2126398681889067164",
+        "players": [
+          "Marvin Harrison Jr."
+        ],
+        "impact": "+2 boosts Marvin Harrison Jr.'s usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "AaronWilson_NFL",
+        "name": "Aaron Wilson",
+        "text": "#Texans running back Woody Marks has cleared #NFL concussion protocol and is set to play Sunday vs. #Ravens.",
+        "published_at": "2026-11-27T19:27:47Z",
+        "published_ct": "Fri 1:27 PM CT",
+        "url": "https://x.com/AaronWilson_NFL/status/2126397594142429527",
+        "players": [
+          "Woody Marks"
+        ],
+        "impact": "+2 boosts Woody Marks's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "AaronWilson_NFL",
+        "name": "Aaron Wilson",
+        "text": "#Texans veteran defensive tackle Sheldon Rankins (ankle) practicing today, too, after returning on limited basis Thursday, and missing Wednesday practice.",
+        "published_at": "2026-11-27T17:04:34Z",
+        "published_ct": "Fri 11:04 AM CT",
+        "url": "https://x.com/AaronWilson_NFL/status/2126361553079595498",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      },
+      {
+        "handle": "AaronWilson_NFL",
+        "name": "Aaron Wilson",
+        "text": "#Texans not practicing all week, including today and not expected to play vs. #Ravens: Pro Bowl edge Danielle Hunter (hamstring), receiver Kayshon Boutte (hip), guard Keylan Rutledge (stinger), Brevin Jordan (finger, foot). Next man up: Jadeveon Clowney, Febechi Nwaiwu. And Marvin Harrison Jr. is expected back.",
+        "published_at": "2026-11-27T16:56:38Z",
+        "published_ct": "Fri 10:56 AM CT",
+        "url": "https://x.com/AaronWilson_NFL/status/2126359556041175519",
+        "players": [
+          "Marvin Harrison Jr."
+        ],
+        "impact": "+2 boosts Marvin Harrison Jr.'s usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "AaronWilson_NFL",
+        "name": "Aaron Wilson",
+        "text": "#Texans rookie lineman Febechi Nwaiwu on stepping in at left guard with Keylan Rutledge sidelined with a stinger. Will start second career game vs. #Ravens.",
+        "published_at": "2026-11-27T19:52:35Z",
+        "published_ct": "Fri 1:52 PM CT",
+        "url": "https://x.com/AaronWilson_NFL/status/2126403832783503623",
+        "players": [
+          "Febechi Nwaiwu",
+          "Keylan Rutledge"
+        ],
+        "impact": "+1 nudges Febechi Nwaiwu's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "MIN": [
+      {
+        "handle": "BenGoessling",
+        "name": "Ben Goessling",
+        "text": "Vikings will be without Christian Darrisaw, Isaiah Rodgers and Jordan Addison on Sunday, Kevin O\u2019Connell said. Ryan Van Demark will start at left tackle. Darrisaw is feeling better, but couldn\u2019t get there for this week, O\u2019Connell said. Kyler Murray will be the backup for Kirk.",
+        "published_at": "2026-11-27T19:49:20Z",
+        "published_ct": "Fri 1:49 PM CT",
+        "url": "https://x.com/BenGoessling/status/2126403016777433592",
+        "players": [
+          "Christian Darrisaw",
+          "Isaiah Rodgers",
+          "Jordan Addison",
+          "Ryan Van Demark",
+          "Kyler Murray"
+        ],
+        "impact": "-2 cuts Christian Darrisaw's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "BenGoessling",
+        "name": "Ben Goessling",
+        "text": "The Vikings held a walk-through on Wednesday, so their practice report is an estimation, but Kyler Murray returned in a limited fashion.",
+        "published_at": "2026-11-25T22:53:00Z",
+        "published_ct": "Wed 4:53 PM CT",
+        "url": "https://x.com/BenGoessling/status/2125724464201539764",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      },
+      {
+        "handle": "BenGoessling",
+        "name": "Ben Goessling",
+        "text": "Kevin O\u2019Connell said he doesn\u2019t necessarily expect the Vikings will have Jordan Addison back this week, but added the receiver is \u201cprogressing really well\u201d after having surgery to fix a thumb injury he sustained in practice last week.",
+        "published_at": "2026-11-23T20:24:24Z",
+        "published_ct": "Mon 2:24 PM CT",
+        "url": "https://x.com/BenGoessling/status/2124962291183456734",
+        "players": [
+          "Jordan Addison"
+        ],
+        "impact": "-1 trims Jordan Addison's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "SEA": [
+      {
+        "handle": "bcondotta",
+        "name": "Bob Condotta",
+        "text": "Sam Darnold again a full participant in practice Thursday. Brock Purdy again a DNP.",
+        "published_at": "2026-11-26T21:57:15Z",
+        "published_ct": "Thu 3:57 PM CT",
+        "url": "https://x.com/bcondotta/status/2126072820778303942",
+        "players": [
+          "Sam Darnold",
+          "Brock Purdy"
+        ],
+        "impact": "+1 nudges Sam Darnold's usage up if the note holds.",
+        "score": 1
+      },
+      {
+        "handle": "bcondotta",
+        "name": "Bob Condotta",
+        "text": "Seahawks list Sam Darnold as a full participant in practice today, appearing to keep him on pace to start Sunday against the 49ers.",
+        "published_at": "2026-11-25T23:29:31Z",
+        "published_ct": "Wed 5:29 PM CT",
+        "url": "https://x.com/bcondotta/status/2125733653280075970",
+        "players": [
+          "Sam Darnold"
+        ],
+        "impact": "+2 boosts Sam Darnold's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "bcondotta",
+        "name": "Bob Condotta",
+        "text": "Mike Macdonald reiterates that plan is for Sam Darnold to start Sunday as long as practice today goes well.",
+        "published_at": "2026-11-25T20:22:24Z",
+        "published_ct": "Wed 2:22 PM CT",
+        "url": "https://x.com/bcondotta/status/2125686562826662241",
+        "players": [
+          "Sam Darnold"
+        ],
+        "impact": "+2 boosts Sam Darnold's usage \u2014 full go or an expanded role.",
+        "score": 2
+      },
+      {
+        "handle": "bcondotta",
+        "name": "Bob Condotta",
+        "text": "I did not see Drew Lock do any throwing and the team listed him as limited.",
+        "published_at": "2026-11-25T23:31:14Z",
+        "published_ct": "Wed 5:31 PM CT",
+        "url": "https://x.com/bcondotta/status/2125734085641531455",
+        "players": [
+          "Drew Lock"
+        ],
+        "impact": "-1 trims Drew Lock's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      },
+      {
+        "handle": "bcondotta",
+        "name": "Bob Condotta",
+        "text": "Seahawks' O-line will have another new look vs. 49ers.",
+        "published_at": "2026-11-26T00:42:16Z",
+        "published_ct": "Wed 6:42 PM CT",
+        "url": "https://x.com/bcondotta/status/2125751961169608940",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      }
+    ],
+    "NYJ": [
+      {
+        "handle": "RichCimini",
+        "name": "Rich Cimini",
+        "text": "Rookie WR Omar Cooper Jr. (ankle/groin) is out for Sunday, per Glenn. Next week is the bye. They want to give him the extra time. #Jets",
+        "published_at": "2026-11-27T15:51:31Z",
+        "published_ct": "Fri 9:51 AM CT",
+        "url": "https://x.com/RichCimini/status/2126343169625243925",
+        "players": [
+          "Omar Cooper Jr."
+        ],
+        "impact": "-2 cuts Omar Cooper Jr.'s usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "RichCimini",
+        "name": "Rich Cimini",
+        "text": "Glenn non-committal on DTs David Onyemata and T\u2019Vondre Sweat and whether one or both will be activated from IR for Sunday\u2019s game. They\u2019ve been practicing and there\u2019s an open roster spot. #Jets",
+        "published_at": "2026-11-27T15:59:19Z",
+        "published_ct": "Fri 9:59 AM CT",
+        "url": "https://x.com/RichCimini/status/2126345129384714528",
+        "players": [
+          "David Onyemata",
+          "T'Vondre Sweat"
+        ],
+        "impact": "Beat note on David Onyemata, T'Vondre Sweat. No automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "RichCimini",
+        "name": "Rich Cimini",
+        "text": "The Jets have opened the 21-day window for NT T'Vondre Sweat. WR Omar Cooper Jr. won't practice today but is day-to-day, per Glenn. #Jets",
+        "published_at": "2026-11-25T16:55:16Z",
+        "published_ct": "Wed 10:55 AM CT",
+        "url": "https://x.com/RichCimini/status/2125634434682765571",
+        "players": [
+          "T'Vondre Sweat",
+          "Omar Cooper Jr."
+        ],
+        "impact": "+1 nudges T'Vondre Sweat's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "NO": [
+      {
+        "handle": "nick_underhill",
+        "name": "Nick Underhill",
+        "text": "Juwan Johnson was the only player we didn't see at practice today.",
+        "published_at": "2026-11-26T19:52:43Z",
+        "published_ct": "Thu 1:52 PM CT",
+        "url": "https://x.com/nick_underhill/status/2126041481857106225",
+        "players": [
+          "Juwan Johnson"
+        ],
+        "impact": "-1 trims Juwan Johnson's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      },
+      {
+        "handle": "nick_underhill",
+        "name": "Nick Underhill",
+        "text": "McCoy and Fuaga were back at practice today.",
+        "published_at": "2026-11-25T21:19:54Z",
+        "published_ct": "Wed 3:19 PM CT",
+        "url": "https://x.com/nick_underhill/status/2125701032185319441",
+        "players": [
+          "Erik McCoy",
+          "Taliese Fuaga"
+        ],
+        "impact": "+1 nudges Erik McCoy's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "SF": [
+      {
+        "handle": "MaioccoNBCS",
+        "name": "Matt Maiocco",
+        "text": "49ers practice report for Thanksgiving Day: No practice \u2014 QB Brock Purdy (ankle), WR Jordan Watkins (groin), S Siran Neal (knee, foot). Limited \u2014 WR Mike Evans (Achilles), LB Dre Greenlaw (neck), CB Deommodore Lenoir (foot), CB Upton Stout (shoulder, neck), OL Carver Willis (illness).",
+        "published_at": "2026-11-26T21:54:23Z",
+        "published_ct": "Thu 3:54 PM CT",
+        "url": "https://x.com/MaioccoNBCS/status/2126072096963142092",
+        "players": [
+          "Brock Purdy",
+          "Jordan Watkins",
+          "Siran Neal",
+          "Mike Evans",
+          "Dre Greenlaw",
+          "Deommodore Lenoir"
+        ],
+        "impact": "-1 trims Brock Purdy's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      },
+      {
+        "handle": "MaioccoNBCS",
+        "name": "Matt Maiocco",
+        "text": "QB Brock Purdy (ankle) did not practice today. He did not practice on Wednesday, either.",
+        "published_at": "2026-11-26T21:52:56Z",
+        "published_ct": "Thu 3:52 PM CT",
+        "url": "https://x.com/MaioccoNBCS/status/2126071734382321947",
+        "players": [
+          "Brock Purdy"
+        ],
+        "impact": "-1 trims Brock Purdy's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      },
+      {
+        "handle": "MaioccoNBCS",
+        "name": "Matt Maiocco",
+        "text": "OL Austen Pleasants has been healthy for a few weeks, 49ers coach Kyle Shanahan said. It sounds as if the team plans to open the practice window for him.",
+        "published_at": "2026-11-25T19:26:20Z",
+        "published_ct": "Wed 1:26 PM CT",
+        "url": "https://x.com/MaioccoNBCS/status/2125672454400188722",
+        "players": [
+          "Austen Pleasants"
+        ],
+        "impact": "+1 nudges Austen Pleasants's usage up if the note holds.",
+        "score": 1
+      },
+      {
+        "handle": "LombardiHimself",
+        "name": "David Lombardi",
+        "text": "It might indeed be Mac Jones making the start against that Seattle defense on Sunday \u2014 no practice for 49ers' QB1 Brock Purdy (ankle) for the second straight day.",
+        "published_at": "2026-11-26T22:19:04Z",
+        "published_ct": "Thu 4:19 PM CT",
+        "url": "https://x.com/LombardiHimself/status/2126078308895052203",
+        "players": [
+          "Mac Jones",
+          "Brock Purdy"
+        ],
+        "impact": "+1 nudges Mac Jones's usage up if the note holds.",
+        "score": 1
+      },
+      {
+        "handle": "LombardiHimself",
+        "name": "David Lombardi",
+        "text": "If Brock Purdy can't properly protect himself vs Seattle (i.e. if he can't evade that great pass rush and create extra opportunity with his legs at a reasonable capacity), it'll only make sense for the 49ers to go with Mac Jones. At 9-1, SF has earned the cushion to not push it.",
+        "published_at": "2026-11-26T22:22:21Z",
+        "published_ct": "Thu 4:22 PM CT",
+        "url": "https://x.com/LombardiHimself/status/2126079136192188517",
+        "players": [
+          "Brock Purdy",
+          "Mac Jones"
+        ],
+        "impact": "-1 trims Brock Purdy's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "WSH": [
+      {
+        "handle": "john_keim",
+        "name": "John Keim",
+        "text": "As expected, Brandon Aiyuk will not be activated for Sunday.",
+        "published_at": "2026-11-27T19:11:52Z",
+        "published_ct": "Fri 1:11 PM CT",
+        "url": "https://x.com/john_keim/status/2126393586057130193",
+        "players": [
+          "Brandon Aiyuk"
+        ],
+        "impact": "Beat note on Brandon Aiyuk. No automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "john_keim",
+        "name": "John Keim",
+        "text": "Amik Robertson won't play Sunday vs. Arizona, coach Dan Quinn said. He said they're not yet at any \"long-term concerns.\"",
+        "published_at": "2026-11-27T19:11:20Z",
+        "published_ct": "Fri 1:11 PM CT",
+        "url": "https://x.com/john_keim/status/2126393455173664925",
+        "players": [
+          "Amik Robertson"
+        ],
+        "impact": "-2 cuts Amik Robertson's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "john_keim",
+        "name": "John Keim",
+        "text": "The move is official: Brandon Aiyuk signed to the practice squad. Washington also signed CB Ambry Thomas to the PS and released WR Malik Heath off PS.",
+        "published_at": "2026-11-26T17:15:44Z",
+        "published_ct": "Thu 11:15 AM CT",
+        "url": "https://x.com/john_keim/status/2126001972319019065",
+        "players": [
+          "Brandon Aiyuk",
+          "Ambry Thomas",
+          "Malik Heath"
+        ],
+        "impact": "Beat note on Brandon Aiyuk. No automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "john_keim",
+        "name": "John Keim",
+        "text": "Brandon Aiyuk will be wearing No. 11 in practice today. Luke McCaffrey will wear No 15. They worked out a deal. League still has to approve the change in order for McCaffrey to wear 15 Sunday.",
+        "published_at": "2026-11-27T16:49:08Z",
+        "published_ct": "Fri 10:49 AM CT",
+        "url": "https://x.com/john_keim/status/2126357667467718873",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      }
+    ],
+    "NE": [
+      {
+        "handle": "MikeReiss",
+        "name": "Mike Reiss",
+        "text": "Game-status nuggets from Mike Vrabel: Wouldn\u2019t anticipate WR Romeo Doubs being ready for action yet. DT Christian Barmore (knee) questionable. LG Alijah Vera-Tucker (hamstring) set to travel to L.A., on cusp of return. CB Carlton Davis III (knee), QB Drake Maye also in the conversation.",
+        "published_at": "2026-11-27T18:16:59Z",
+        "published_ct": "Fri 12:16 PM CT",
+        "url": "https://x.com/MikeReiss/status/2126379775807869237",
+        "players": [
+          "Romeo Doubs",
+          "Christian Barmore",
+          "Alijah Vera-Tucker",
+          "Carlton Davis III",
+          "Drake Maye"
+        ],
+        "impact": "-1 trims Romeo Doubs's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      },
+      {
+        "handle": "MikeReiss",
+        "name": "Mike Reiss",
+        "text": "Patriots project no changes on Thursday injury report (if they practiced), so trending toward: Marcus Jones/Charles Woods combo in place of Carlton Davis at CB. WR Romeo Doubs needing more time before he is ready for game action. Ben Brown return, possibly as RG starter.",
+        "published_at": "2026-11-26T20:31:19Z",
+        "published_ct": "Thu 2:31 PM CT",
+        "url": "https://x.com/MikeReiss/status/2126051194493890941",
+        "players": [
+          "Carlton Davis",
+          "Romeo Doubs",
+          "Ben Brown"
+        ],
+        "impact": "Beat note. Watch the replacements, no automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "MikeReiss",
+        "name": "Mike Reiss",
+        "text": "Patriots Wednesday injury report. NO PRACTICE: CB Carlton Davis (knee), WR A.J. Brown (hamstring), G Walter Rouse (concussion protocol), QB Drake Maye (fibula). LIMITED PRACTICE: WR Romeo Doubs (shoulder), FB Reggie Gilliam (knee), LG Alijah Vera-Tucker (hamstring).",
+        "published_at": "2026-11-25T23:52:35Z",
+        "published_ct": "Wed 5:52 PM CT",
+        "url": "https://x.com/MikeReiss/status/2125739456955068483",
+        "players": [
+          "Carlton Davis",
+          "A.J. Brown",
+          "Walter Rouse",
+          "Drake Maye",
+          "Romeo Doubs",
+          "Reggie Gilliam",
+          "Alijah Vera-Tucker"
+        ],
+        "impact": "-2 cuts Drake Maye's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "MikeReiss",
+        "name": "Mike Reiss",
+        "text": "Romeo Doubs participated in individual drills and ran routes on air (not vs. defense) today, so a modest re-entry for him. With just one more practice before the trip to L.A., it seems aggressive to project Doubs as active for Sunday vs. the Chargers ... but time will tell.",
+        "published_at": "2026-11-25T21:52:42Z",
+        "published_ct": "Wed 3:52 PM CT",
+        "url": "https://x.com/MikeReiss/status/2125709287712526585",
+        "players": [
+          "Romeo Doubs"
+        ],
+        "impact": "-1 trims Romeo Doubs's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "PHI": [
+      {
+        "handle": "Jeff_McLane",
+        "name": "Jeff McLane",
+        "text": "DeVonta Smith, playing through injury, has a \u2018legacy game\u2019 in #Eagles\u2019 comeback win over Cowboys.",
+        "published_at": "2026-11-27T13:01:56Z",
+        "published_ct": "Fri 7:01 AM CT",
+        "url": "https://x.com/Jeff_McLane/status/2126300490900394361",
+        "players": [
+          "DeVonta Smith"
+        ],
+        "impact": "Beat note on DeVonta Smith. No automatic usage shift until the designation moves.",
+        "score": 0
+      },
+      {
+        "handle": "Jeff_McLane",
+        "name": "Jeff McLane",
+        "text": "Jordan Mailata and other #Eagles chanted DeVonta Smith\u2019s stat line when he finally came into the locker room after treatment. Smith could barely move as he sat by his stall. He declined to talk and understandably so.",
+        "published_at": "2026-11-27T02:44:39Z",
+        "published_ct": "Thu 8:44 PM CT",
+        "url": "https://x.com/Jeff_McLane/status/2126145145447793099",
+        "players": [
+          "DeVonta Smith"
+        ],
+        "impact": "Beat note on DeVonta Smith. No automatic usage shift until the designation moves.",
+        "score": 0
+      }
+    ],
+    "PIT": [
+      {
+        "handle": "gerrydulac",
+        "name": "Gerry Dulac",
+        "text": "Art Rooney II says Aaron Rodgers was insubordinate and not a \"good teammate\" for reasons why the Steelers released him.",
+        "published_at": "2026-11-26T17:21:50Z",
+        "published_ct": "Thu 11:21 AM CT",
+        "url": "https://x.com/gerrydulac/status/2126003508076048807",
+        "players": [
+          "Aaron Rodgers"
+        ],
+        "impact": "-2 cuts Aaron Rodgers's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "gerrydulac",
+        "name": "Gerry Dulac",
+        "text": "SOURCES: In a Tuesday evening meeting, Aaron Rodgers gave Mike McCarthy an ultimatum: I want to call all the plays or just release me. They called his bluff and released him.",
+        "published_at": "2026-11-25T23:14:56Z",
+        "published_ct": "Wed 5:14 PM CT",
+        "url": "https://x.com/gerrydulac/status/2125729981380616226",
+        "players": [
+          "Aaron Rodgers"
+        ],
+        "impact": "-2 cuts Aaron Rodgers's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      },
+      {
+        "handle": "gerrydulac",
+        "name": "Gerry Dulac",
+        "text": "SOURCES: Steelers are expected to release quarterback Aaron Rodgers, a decision that was hastened when Rodgers went on Pat McAfee and accused Mike McCarthy of falling asleep in meetings.",
+        "published_at": "2026-11-25T19:46:13Z",
+        "published_ct": "Wed 1:46 PM CT",
+        "url": "https://x.com/gerrydulac/status/2125677457223164144",
+        "players": [
+          "Aaron Rodgers"
+        ],
+        "impact": "-2 cuts Aaron Rodgers's usage \u2014 out, inactive, or a sharp downgrade.",
+        "score": -2
+      }
+    ],
+    "TB": [
+      {
+        "handle": "JennaLaineESPN",
+        "name": "Jenna Laine",
+        "text": "Todd Bowles said cornerbacks Jacob Parrish and Benjamin Morrison are both getting MRIs today. Parrish left the game with a back injury and Morrison a hamstring injury. Defensive lineman Elijah Simmons is in the concussion protocol.",
+        "published_at": "2026-11-23T17:31:45Z",
+        "published_ct": "Mon 11:31 AM CT",
+        "url": "https://x.com/JennaLaineESPN/status/2124918839704182989",
+        "players": [
+          "Jacob Parrish",
+          "Benjamin Morrison",
+          "Elijah Simmons"
+        ],
+        "impact": "-1 trims Jacob Parrish's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "CLE": [
+      {
+        "handle": "MaryKayCabot",
+        "name": "Mary Kay Cabot",
+        "text": "#Browns WR Denzel Boston (quad) and RG Austin Barber (knee) are questionable for the #Raiders game. DE Derek Barnett (hamstring) is out. RB Raheim Sanders (hip) is questionable.",
+        "published_at": "2026-11-27T18:23:44Z",
+        "published_ct": "Fri 12:23 PM CT",
+        "url": "https://x.com/MaryKayCabot/status/2126381474077454767",
+        "players": [
+          "Denzel Boston",
+          "Austin Barber",
+          "Derek Barnett",
+          "Raheim Sanders"
+        ],
+        "impact": "-1 trims Denzel Boston's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "LV": [
+      {
+        "handle": "MaryKayCabot",
+        "name": "Mary Kay Cabot",
+        "text": "#Raiders premier TE Brock Bowers not seen at practice Friday in the media viewing part.",
+        "published_at": "2026-11-27T19:29:25Z",
+        "published_ct": "Fri 1:29 PM CT",
+        "url": "https://x.com/MaryKayCabot/status/2126398004538053072",
+        "players": [
+          "Brock Bowers"
+        ],
+        "impact": "-1 trims Brock Bowers's usage \u2014 limited, questionable, or a smaller role.",
+        "score": -1
+      }
+    ],
+    "DEN": [
+      {
+        "handle": "AricDiLalla",
+        "name": "Aric DiLalla",
+        "text": "Broncos RB Jonah Coleman is the first Broncos rookie to earn Player of the Week honors since Bo Nix in 2024. Well-deserved for Coleman after a 3-TD day vs. the Raiders.",
+        "published_at": "2026-11-25T17:01:50Z",
+        "published_ct": "Wed 11:01 AM CT",
+        "url": "https://x.com/AricDiLalla/status/2125636089142718522",
+        "players": [
+          "Jonah Coleman"
+        ],
+        "impact": "+1 nudges Jonah Coleman's usage up if the note holds.",
+        "score": 1
+      }
+    ],
+    "TEN": [
+      {
+        "handle": "PaulKuharskyNFL",
+        "name": "Paul Kuharsky",
+        "text": "#Titans Thursday injury report.",
+        "published_at": "2026-11-26T20:14:21Z",
+        "published_ct": "Thu 2:14 PM CT",
+        "url": "https://x.com/PaulKuharskyNFL/status/2126046924310495565",
+        "players": [],
+        "impact": "Beat note. No automatic usage shift from this item.",
+        "score": 0
+      }
+    ]
+  }
+}

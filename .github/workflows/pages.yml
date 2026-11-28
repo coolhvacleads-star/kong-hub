@@ -59,6 +59,11 @@ jobs:
         continue-on-error: true
         timeout-minutes: 15
         run: python scripts/pages_job.py referees
+      - name: Model v48 (practice grades, key numbers, team EPA)
+        id: m48
+        continue-on-error: true
+        timeout-minutes: 10
+        run: python scripts/pages_job.py model48
       - name: Publish the week, or run the light refresh
         run: |
           dow=$(TZ=America/Chicago date +%u)
